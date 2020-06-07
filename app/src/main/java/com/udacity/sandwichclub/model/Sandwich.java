@@ -1,5 +1,7 @@
 package com.udacity.sandwichclub.model;
 
+import android.util.Log;
+
 import java.util.List;
 
 public class Sandwich {
@@ -51,6 +53,7 @@ public class Sandwich {
     }
 
     public String getDescription() {
+
         return description;
     }
 
